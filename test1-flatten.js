@@ -11,4 +11,4 @@ function flattenDeep(ar) {
 }
 
 // should be return [1, 'any [complex] string', null, function() {}, 1, 2, 3, '4', 0, { a: 1 }]
-console.log(flatten([1, 'any [complex] string', null, function() {}, [1, 2, [3, '4'], 0], [], { a: 1 }]));
+flatten([1, 'any [complex] string', null, function() {}, [1, 2, [3, '4'], 0], [], { a: 1 }])
